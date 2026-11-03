@@ -1,0 +1,8 @@
+{
+  "name": "RA Tech Solutions – Enterprise IT & AMC Across Tamil Nadu",
+  "description": "Enterprise IT infrastructure, computer hardware sales, AMC, CCTV, networking, and customer call logging management system for RA Tech Solutions across Tamil Nadu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

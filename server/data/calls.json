@@ -1,0 +1,311 @@
+[
+  {
+    "id": "RAT-2026-1009",
+    "customerName": "Test User",
+    "mobile": "9840112233",
+    "email": "test@chennai.com",
+    "companyName": "Online Enquiry Client",
+    "locality": "Chennai (Web Portal)",
+    "callType": "Incoming",
+    "serviceCategory": "Laptop Repair & Upgrades",
+    "issueDetails": "Website Lead Enquiry (ENQ-2026-002): Screen flicker",
+    "assignedStaff": "Divya Shankar - AMC Coordinator",
+    "priority": "High",
+    "status": "New",
+    "callDate": "2026-11-03T19:54",
+    "followUpDate": "2026-11-03T21:54",
+    "resolutionNotes": "Awaiting initial callback to customer.",
+    "history": [
+      {
+        "id": "log-1793735641183",
+        "timestamp": "2026-11-03T19:54:01.183Z",
+        "author": "Web Portal Gateway",
+        "action": "Web Lead Auto-Synced to CRM",
+        "notes": "Enquiry ENQ-2026-002 automatically registered as Ticket RAT-2026-1009. 2-hour SLA initiated."
+      }
+    ],
+    "createdAt": "2026-11-03T19:54:01.183Z",
+    "updatedAt": "2026-11-03T19:54:01.183Z"
+  },
+  {
+    "id": "RAT-2026-1001",
+    "customerName": "Suresh Ramachandran",
+    "mobile": "9840123456",
+    "email": "suresh@tidelcorpsolutions.com",
+    "companyName": "Tidel Corp Solutions Pvt Ltd",
+    "locality": "OMR, Tharamani",
+    "callType": "Incoming",
+    "serviceCategory": "IT Hardware & Infrastructure",
+    "issueDetails": "Dell PowerEdge R740 primary domain controller RAID array degraded. Drive 2 amber blinking. Requires urgent SAS disk replacement and hot-spare rebuild verification.",
+    "assignedStaff": "Karthik Raja - Senior Hardware Engineer",
+    "priority": "Urgent",
+    "status": "In Progress",
+    "callDate": "2026-11-03T09:15",
+    "followUpDate": "2026-11-03T16:00",
+    "resolutionNotes": "Technician dispatched on-site with 1.2TB 10K SAS spare drive. Rebuild initialized at 11:30 AM.",
+    "estimatedCost": "₹14,500",
+    "history": [
+      {
+        "id": "log-1",
+        "timestamp": "2026-11-03T09:15:00.000Z",
+        "author": "Divya Shankar",
+        "action": "Ticket Created",
+        "notes": "Customer called reporting degraded RAID LED on Dell server at Tharamani data closet."
+      },
+      {
+        "id": "log-2",
+        "timestamp": "2026-11-03T09:30:00.000Z",
+        "author": "Divya Shankar",
+        "action": "Assigned to Karthik Raja",
+        "notes": "Priority set to Urgent due to production impact."
+      },
+      {
+        "id": "log-3",
+        "timestamp": "2026-11-03T11:45:00.000Z",
+        "author": "Karthik Raja",
+        "action": "Status updated to In Progress",
+        "notes": "Drive replaced, RAID 5 parity consistency check underway."
+      }
+    ],
+    "createdAt": "2026-11-03T09:15:00.000Z",
+    "updatedAt": "2026-11-03T11:45:00.000Z"
+  },
+  {
+    "id": "RAT-2026-1002",
+    "customerName": "Anandhi Natarajan",
+    "mobile": "9444087654",
+    "email": "procurement@kavinlogistics.in",
+    "companyName": "Kavin Logistics Hub",
+    "locality": "Guindy Industrial Estate",
+    "callType": "Incoming",
+    "serviceCategory": "Networking & CCTV Solutions",
+    "issueDetails": "Warehouse CCTV camera 04 and 07 video signal lost after electrical surge. Need technician to check 16-channel Hikvision DVR and Cat6 patch panel.",
+    "assignedStaff": "Praveen Kumar - Network Specialist",
+    "priority": "High",
+    "status": "Pending",
+    "callDate": "2026-11-02T14:20",
+    "followUpDate": "2026-11-03T10:00",
+    "resolutionNotes": "Waiting for client security clearance gate pass for morning warehouse visit.",
+    "estimatedCost": "₹4,200",
+    "history": [
+      {
+        "id": "log-4",
+        "timestamp": "2026-11-02T14:20:00.000Z",
+        "author": "Divya Shankar",
+        "action": "Ticket Created",
+        "notes": "2 cameras showing black screen on security monitor."
+      },
+      {
+        "id": "log-5",
+        "timestamp": "2026-11-02T16:00:00.000Z",
+        "author": "Praveen Kumar",
+        "action": "Follow-up Scheduled",
+        "notes": "Gate pass pending from security head."
+      }
+    ],
+    "createdAt": "2026-11-02T14:20:00.000Z",
+    "updatedAt": "2026-11-02T16:00:00.000Z"
+  },
+  {
+    "id": "RAT-2026-1003",
+    "customerName": "Venkatesh Balaji",
+    "mobile": "9884567890",
+    "email": "venkat@apexfintech.com",
+    "companyName": "Apex Financial Technologies",
+    "locality": "Nungambakkam",
+    "callType": "Outgoing",
+    "serviceCategory": "Annual Maintenance Contracts",
+    "issueDetails": "Quarterly preventative maintenance inspection call for 45 desktop workstations, 2 Fortinet firewalls, and server room UPS battery health audit.",
+    "assignedStaff": "Divya Shankar - AMC Coordinator",
+    "priority": "Medium",
+    "status": "Resolved",
+    "callDate": "2026-11-01T11:00",
+    "followUpDate": "2026-11-15T10:00",
+    "resolutionNotes": "All 45 nodes cleaned and OS patched. UPS run-time verified at 38 minutes under full load. PM checklist signed off by client admin.",
+    "estimatedCost": "Covered under AMC Plan Gold",
+    "history": [
+      {
+        "id": "log-6",
+        "timestamp": "2026-11-01T11:00:00.000Z",
+        "author": "Divya Shankar",
+        "action": "Routine AMC PM Scheduled",
+        "notes": "Initiated outbound call to confirm IT visit slot."
+      },
+      {
+        "id": "log-7",
+        "timestamp": "2026-11-01T17:30:00.000Z",
+        "author": "Karthik Raja",
+        "action": "Status updated to Resolved",
+        "notes": "All checks passed. Client acknowledged report."
+      }
+    ],
+    "createdAt": "2026-11-01T11:00:00.000Z",
+    "updatedAt": "2026-11-01T17:30:00.000Z"
+  },
+  {
+    "id": "RAT-2026-1004",
+    "customerName": "Meenakshi Sundaram",
+    "mobile": "9790112233",
+    "email": "meenakshi@chennaicreative.design",
+    "companyName": "Chennai Creative Studios",
+    "locality": "Adyar",
+    "callType": "Incoming",
+    "serviceCategory": "Laptop Repair & Upgrades",
+    "issueDetails": "Apple MacBook Pro M1 16-inch thermal throttling and fan rattling under Adobe Premiere video renders. Also requested 2TB NVMe SSD upgrade for HP Omen editing rig.",
+    "assignedStaff": "Vigneshwaran - Field Technician",
+    "priority": "High",
+    "status": "In Progress",
+    "callDate": "2026-11-03T10:30",
+    "followUpDate": "2026-11-04T12:00",
+    "resolutionNotes": "MacBook heatsink disassembled, dust cleared and Arctic MX-6 thermal paste reapplied. Diagnostic bench test currently running.",
+    "estimatedCost": "₹6,800",
+    "history": [
+      {
+        "id": "log-8",
+        "timestamp": "2026-11-03T10:30:00.000Z",
+        "author": "Divya Shankar",
+        "action": "Ticket Created",
+        "notes": "Client dropped laptop at service desk."
+      }
+    ],
+    "createdAt": "2026-11-03T10:30:00.000Z",
+    "updatedAt": "2026-11-03T10:30:00.000Z"
+  },
+  {
+    "id": "RAT-2026-1005",
+    "customerName": "Rajesh Kannan",
+    "mobile": "9841098765",
+    "email": "admin@kannanhospital.org",
+    "companyName": "Kannan Multi-Speciality Clinic",
+    "locality": "Anna Nagar West",
+    "callType": "Incoming",
+    "serviceCategory": "Backup & Storage Solutions",
+    "issueDetails": "NAS Synology DS920+ off-site cloud replication failing with rsync timeout. Critical patient radiology backup backlog accumulated over 3 days.",
+    "assignedStaff": "Karthik Raja - Senior Hardware Engineer",
+    "priority": "Urgent",
+    "status": "New",
+    "callDate": "2026-11-03T11:15",
+    "followUpDate": "2026-11-03T14:00",
+    "resolutionNotes": "Diagnosing WAN gateway MTU settings and Synology DSM Hyper Backup daemon.",
+    "estimatedCost": "₹5,500",
+    "history": [
+      {
+        "id": "log-9",
+        "timestamp": "2026-11-03T11:15:00.000Z",
+        "author": "Divya Shankar",
+        "action": "Ticket Created",
+        "notes": "Urgent patient imaging archive replication stall."
+      }
+    ],
+    "createdAt": "2026-11-03T11:15:00.000Z",
+    "updatedAt": "2026-11-03T11:15:00.000Z"
+  },
+  {
+    "id": "RAT-2026-1006",
+    "customerName": "Lakshmi Narayanan",
+    "mobile": "9884011224",
+    "email": "lakshmi@greenleafconsulting.com",
+    "companyName": "GreenLeaf Environmental Auditors",
+    "locality": "T. Nagar",
+    "callType": "Incoming",
+    "serviceCategory": "Printer Sales, Repair & Maintenance",
+    "issueDetails": "HP LaserJet Enterprise MFP M528 multi-function feeder jamming on double-sided A4 audits. Smudged toner lines across printed pages.",
+    "assignedStaff": "Vigneshwaran - Field Technician",
+    "priority": "Medium",
+    "status": "Resolved",
+    "callDate": "2026-11-02T16:45",
+    "followUpDate": "2026-11-03T18:00",
+    "resolutionNotes": "Replaced worn pickup rollers and fuser assembly pressure film. Cleaned laser scanner glass. Print quality verified with 50-sheet test batch.",
+    "estimatedCost": "₹3,900",
+    "history": [
+      {
+        "id": "log-10",
+        "timestamp": "2026-11-02T16:45:00.000Z",
+        "author": "Divya Shankar",
+        "action": "Ticket Created",
+        "notes": "Client requested pickup/on-site repair."
+      },
+      {
+        "id": "log-11",
+        "timestamp": "2026-11-03T10:15:00.000Z",
+        "author": "Vigneshwaran",
+        "action": "Resolved on-site",
+        "notes": "Parts replaced and test prints clean."
+      }
+    ],
+    "createdAt": "2026-11-02T16:45:00.000Z",
+    "updatedAt": "2026-11-03T10:15:00.000Z"
+  },
+  {
+    "id": "RAT-2026-1007",
+    "customerName": "Gautam Chandrasekar",
+    "mobile": "9940334455",
+    "email": "operations@edutechinnovations.co.in",
+    "companyName": "EduTech Innovations Hub",
+    "locality": "Velachery",
+    "callType": "Incoming",
+    "serviceCategory": "Desktop & Laptop Rentals",
+    "issueDetails": "Inquiry for 25 high-performance Core i7/16GB/512GB SSD Windows 11 laptops on 3-month rental for data science bootcamp training batch commencing next Monday.",
+    "assignedStaff": "Divya Shankar - AMC Coordinator",
+    "priority": "High",
+    "status": "New",
+    "callDate": "2026-11-03T08:50",
+    "followUpDate": "2026-11-03T15:00",
+    "resolutionNotes": "Quotation generated with bulk rental discount. Awaiting signed rental agreement.",
+    "estimatedCost": "₹42,500 / month",
+    "history": [
+      {
+        "id": "log-12",
+        "timestamp": "2026-11-03T08:50:00.000Z",
+        "author": "Divya Shankar",
+        "action": "Ticket Created",
+        "notes": "Lead generated via website phone inquiry."
+      }
+    ],
+    "createdAt": "2026-11-03T08:50:00.000Z",
+    "updatedAt": "2026-11-03T08:50:00.000Z"
+  },
+  {
+    "id": "RAT-2026-1008",
+    "customerName": "Mohamed Irfan",
+    "mobile": "9600123987",
+    "email": "irfan@albatrossmaritime.in",
+    "companyName": "Albatross Maritime Shipping",
+    "locality": "George Town, Parrys",
+    "callType": "Incoming",
+    "serviceCategory": "Cybersecurity & Endpoint Protection",
+    "issueDetails": "Phishing email clicked on accounting desktop; suspicious PowerShell process detected by Windows Defender. Requesting immediate endpoint isolation, malware eradication, and EDR deployment.",
+    "assignedStaff": "Karthik Raja - Senior Hardware Engineer",
+    "priority": "Urgent",
+    "status": "Closed",
+    "callDate": "2026-10-31T15:20",
+    "followUpDate": "2026-11-02T11:00",
+    "resolutionNotes": "Machine isolated from LAN immediately. Malware payload identified as AgentTesla info-stealer; fully scrubbed. Bitdefender GravityZone EDR installed across all 18 office endpoints.",
+    "estimatedCost": "₹18,000",
+    "history": [
+      {
+        "id": "log-13",
+        "timestamp": "2026-10-31T15:20:00.000Z",
+        "author": "Divya Shankar",
+        "action": "Ticket Created",
+        "notes": "Emergency malware incident call."
+      },
+      {
+        "id": "log-14",
+        "timestamp": "2026-11-01T14:00:00.000Z",
+        "author": "Karthik Raja",
+        "action": "Scrubbed and EDR Deployed",
+        "notes": "Containment verified. No data exfiltration detected."
+      },
+      {
+        "id": "log-15",
+        "timestamp": "2026-11-02T11:00:00.000Z",
+        "author": "Divya Shankar",
+        "action": "Ticket Closed",
+        "notes": "Client satisfied with swift resolution."
+      }
+    ],
+    "createdAt": "2026-10-31T15:20:00.000Z",
+    "updatedAt": "2026-11-02T11:00:00.000Z"
+  }
+]

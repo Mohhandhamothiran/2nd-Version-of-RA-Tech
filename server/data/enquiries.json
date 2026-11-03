@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ENQ-2026-002",
+    "name": "Test User",
+    "phone": "9840112233",
+    "email": "test@chennai.com",
+    "company": "",
+    "service": "Laptop Repair & Upgrades",
+    "message": "Screen flicker",
+    "createdAt": "2026-11-03T19:54:01.182Z",
+    "status": "Received"
+  },
+  {
+    "id": "ENQ-2026-001",
+    "name": "Kavitha R.",
+    "phone": "9840556677",
+    "email": "kavitha@chennailog.com",
+    "company": "Chennai Logistics Network",
+    "service": "Annual Maintenance Contracts",
+    "message": "Looking for comprehensive AMC for 30 desktop PCs and 3 network printers at our Ambattur branch office.",
+    "createdAt": "2026-11-03T08:30:00.000Z",
+    "status": "Contacted"
+  }
+]
