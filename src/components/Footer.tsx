@@ -118,7 +118,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavClick, onOpenCrm }) => {
               className="mt-2 inline-flex items-center gap-1.5 px-3 py-2 bg-slate-900 hover:bg-slate-800 border border-slate-700 text-cyan-300 rounded text-xs font-medium transition-colors"
             >
               <Shield className="w-3.5 h-3.5 text-cyan-400" />
-              <span>Customer Call Logging CRM</span>
+              <span>Staff Desk</span>
             </button>
           </div>
         </div>

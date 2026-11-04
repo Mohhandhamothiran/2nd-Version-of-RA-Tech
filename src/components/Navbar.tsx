@@ -103,21 +103,6 @@ export const Navbar: React.FC<NavbarProps> = ({
             </button>
           ))}
 
-          {/* CRM Internal Access Link */}
-          <button
-            onClick={onOpenCrm}
-            className={`flex items-center gap-1.5 whitespace-nowrap shrink-0 text-xs px-3 py-1.5 rounded-md border transition-all ${
-              currentTab === 'crm'
-                ? 'bg-cyan-500/10 border-cyan-500/50 text-cyan-300 font-semibold'
-                : 'border-slate-800 bg-slate-900/60 text-slate-300 hover:text-white hover:border-slate-700'
-            }`}
-          >
-            <Shield className="w-3.5 h-3.5 text-cyan-400" />
-            <span>Staff Call Desk</span>
-            {currentUser && (
-              <span className="w-2 h-2 rounded-full bg-emerald-400 ml-0.5" title={`Logged in as ${currentUser.name}`} />
-            )}
-          </button>
         </nav>
 
         {/* Zone 3: 1 primary action */}

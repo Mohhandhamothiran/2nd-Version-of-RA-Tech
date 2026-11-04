@@ -153,7 +153,7 @@ export const Hero: React.FC<HeroProps> = ({ openQuoteModal, navigateToServices }
                     <div className="font-semibold text-white">Hosur & Krishnagiri Corridor</div>
                     <div className="text-[11px] text-slate-400">Electronics manufacturing & automotive parks</div>
                   </div>
-                  <span className="font-mono text-cyan-400 font-bold text-xs">Scheduled AMC</span>
+                  <span className="font-mono text-cyan-400 font-bold text-xs">Same-Day SLA</span>
                 </div>
               </div>
 
